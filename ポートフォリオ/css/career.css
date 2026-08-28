@@ -1,0 +1,84 @@
+body {
+    background-color: #f5f7fa;
+    font-family: "Yu Gothic", sans-serif;
+    color: #333;
+}
+
+/* 経歴ページ */
+.career {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.career h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4f46e5;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.career h1::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: #4f46e5;
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+}
+
+/* タイムライン */
+.career-item {
+    position: relative;
+    background: #ffffff;
+    margin-bottom: 30px;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    border-left: 6px solid #4f46e5;
+    transition: all 0.3s ease;
+}
+
+.career-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.career-item h2 {
+    color: #4f46e5;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.career-item p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* スマホ対応 */
+@media (max-width: 768px) {
+    .career {
+        margin: 40px auto;
+        padding: 15px;
+    }
+
+    .career h1 {
+        font-size: 2rem;
+    }
+
+    .career-item {
+        padding: 20px;
+    }
+
+    .career-item h2 {
+        font-size: 1rem;
+    }
+
+    .career-item p {
+        font-size: 0.95rem;
+    }
+}
