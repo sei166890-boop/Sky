@@ -1,0 +1,99 @@
+body{
+    background:#f5f7fa;
+}
+
+/* 各作品 */
+.work-section{
+    max-width:1100px;
+    margin:80px auto;
+    padding:40px;
+
+    background:#fff;
+    border-radius:18px;
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+}
+
+/* 説明 */
+.description{
+    max-width:900px;
+    margin:auto;
+}
+
+.description h2{
+    font-size:30px;
+    padding-left:15px;
+    margin-bottom:25px;
+    border-left:8px solid #4CAF50;
+}
+
+.description p{
+    font-size:18px;
+    line-height:2;
+    color:#444;
+}
+
+/* 画像 */
+.image-box{
+    text-align:center;
+    margin:50px 0;
+}
+
+.image-box img{
+    width:100%;
+    max-width:1200px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+}
+
+.image-box.small img{
+    max-width:500px;
+}
+
+.image-box2{
+
+    text-align:center;
+
+    margin-bottom:35px;
+
+}
+
+.image-box2 img{
+
+    width:100%;
+
+    max-width:400px;
+
+    border-radius:12px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+
+}
+
+.image-box3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.image-box3 img {
+    width: 100%;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+}
+
+
+
+/* キャプション */
+figcaption{
+    margin-top:20px;
+}
+
+figcaption h3{
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+figcaption p{
+    margin:0;
+}
